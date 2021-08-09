@@ -7,7 +7,7 @@ export default args => {
 	let version = process.env.MERGESORT_VERSION,
 		name = process.env.MERGESORT_GLOBAL_NAME
 			.replace(
-				/^(?:[^\/]*\/)?\w/gi, 
+				/^(?:[^\/_-]*(?:\/|-|_))?\w/gi, 
 				function(m,o,s){
 					return m.slice(-1).toUpperCase();
 				}
