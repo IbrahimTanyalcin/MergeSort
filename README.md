@@ -26,7 +26,7 @@ For larger arrays (> 1M) it performs faster than native solutions (around %25-%5
 
 ## Documentation
 
-Check the here.
+[Here](https://ibrahimtanyalcin.github.io/MergeSort/).
 
 ## Usage
 
@@ -50,7 +50,12 @@ npm run build
 You will end up with 4 files in the `dist` folder, an es5 version, an es6 version and minified versions of both.
 
 ## Browser
-TBD
+
+```javascript
+<script src="https://cdn.jsdelivr.net/npm/ibowankenobi-mergesort"></script>
+```
+
+If you want to request a particular version, check instructions at [jsdelivr](https://www.jsdelivr.com/).
 
 
 
