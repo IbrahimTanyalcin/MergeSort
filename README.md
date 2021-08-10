@@ -1,4 +1,6 @@
 # MergeSort <img src="./logo/logo.png" width='30' height='auto'>
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/b623fd94de934c0897bf646814d3476f)](https://www.codacy.com/gh/IbrahimTanyalcin/MergeSort/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=IbrahimTanyalcin/MergeSort&amp;utm_campaign=Badge_Grade)
+[![DOI](https://zenodo.org/badge/393070702.svg)](https://zenodo.org/badge/latestdoi/393070702)
 
 Mergesort algorithm without recursion, using cached binary trees 👇 
 
@@ -24,9 +26,11 @@ For larger arrays (> 1M) it performs faster than native solutions (around %25-%5
 </small></small> 
 <br><br>
 
-## Documentation
+## [Documentation](https://ibrahimtanyalcin.github.io/MergeSort/)
 
-[Here](https://ibrahimtanyalcin.github.io/MergeSort/).
+For a list of config options, see [here](https://ibrahimtanyalcin.github.io/MergeSort/).
+
+For directly embedding to html, if you are using a browser with compatibility > ie11, use the file ending with `...evergreen.min.js` in the `dist` folder. Otherwise, you can fall back to `...es5.min.js`. To read the entire build, refer to the files without the `.min.` part.
 
 ## Usage
 
@@ -54,6 +58,8 @@ You will end up with 4 files in the `dist` folder, an es5 version, an es6 versio
 ```javascript
 <script src="https://cdn.jsdelivr.net/npm/ibowankenobi-mergesort"></script>
 ```
+
+The contents of the request above is the same as `./dist/mergesort.x.y.z.evergreen.min.js`.
 
 If you want to request a particular version, check instructions at [jsdelivr](https://www.jsdelivr.com/).
 

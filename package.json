@@ -1,8 +1,8 @@
 {
   "name": "ibowankenobi-mergesort",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Merge Sort algorithm implementation without recursion, using cached binary trees",
-  "main": "./dist/mergesort.0.0.2.evergreen.min.js",
+  "main": "./dist/mergesort.0.0.3.evergreen.min.js",
   "access": "public",
   "scripts": {
     "test": "cross-env-shell MERGESORT_VERSION=${npm_package_version} jest --ci",

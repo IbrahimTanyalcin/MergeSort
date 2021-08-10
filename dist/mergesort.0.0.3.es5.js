@@ -351,7 +351,7 @@
       return instance;
     }
 
-    index.version = "0.0.2";
+    index.version = "0.0.3";
 
     return index;
 
